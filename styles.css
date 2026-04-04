@@ -11,13 +11,14 @@ h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0.5em;
+    margin-top: 0;
     margin-bottom: 0;
 }
 p {
     color: white;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 a {
     color: transparent;
@@ -29,6 +30,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     padding: 0.5em;
 }
 .container {
@@ -37,8 +39,17 @@ a:hover {
     border-color: rgb(22, 22, 22);
     border-width: 0.2em;
     font-size: 1.5em;
-    padding-left: 1vb;
-    padding-right: 1vb;
+    padding: 0.5em;
+    text-align: center;
+    margin: 1em;
+}
+.contentcontainer {
+    background-color: rgb(39, 39, 39);
+    text-wrap: wrap;
+    text-align: left;
+    font-size: 1em;
+    height: 20em;
+    overflow-y: auto;
 }
 .descriptor {
     margin-top: 0;
@@ -53,10 +64,30 @@ a:hover {
     justify-content: center;
     column-gap: 1em;
     font-size: 1em;
+    flex-wrap: wrap;
 }
 .headertext {
     margin: 0;
 }
+.nbheader {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.nbbodytext {
+    color: grey;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 .noticeboard {
     width: 15em;
+    height: fit-content;
+}
+.gamereviews {
+    width: 15em;
+    height: fit-content;
+}
+.welcome {
+    width: 30em;
 }
