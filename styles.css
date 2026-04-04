@@ -98,9 +98,6 @@ a:hover {
     height: fit-content;
     margin: 0.5em;
 }
-.welcome {
-    width: 30em;
-}
 .plaquecontainer {
     width: fit-content;
     border: dashed;
