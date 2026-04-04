@@ -4,8 +4,10 @@ body {
 }
 header {
     background-color: rgb(31, 31, 31);
-    margin-bottom: 5em;
     padding: 0.6em;
+    border-bottom: solid;
+    border-color: rgb(22, 22, 22);
+    border-width: 0.2em;
 }
 h1 {
     color: white;
@@ -20,16 +22,29 @@ p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
 a {
     color: transparent;
 }
 a:hover {
     color: rgb(255, 255, 255);
 }
+.bodyoutline {
+    border: dashed;
+    border-color: rgb(53, 53, 53);
+    border-width: 0.5em;
+    border-radius: 3em;
+    margin: 1em;
+    padding: 1em;
+}
 .center {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 0.5em;
 }
@@ -50,14 +65,12 @@ a:hover {
     font-size: 1em;
     height: 20em;
     overflow-y: auto;
+    scrollbar-color: rgb(73, 73, 73) transparent;
 }
 .descriptor {
     margin-top: 0;
     color: grey;
     font-size: 0.8em;
-}
-.gameboard {
-    width: 15em;
 }
 .headerlink {
     display: flex;
@@ -69,25 +82,28 @@ a:hover {
 .headertext {
     margin: 0;
 }
-.nbheader {
+.contentheader {
     margin: 0;
     text-align: center;
     font-weight: bold;
 }
-.nbbodytext {
+.contentbodytext {
     color: grey;
     font-size: 0.8em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-.noticeboard {
+.contentplaque {
     width: 15em;
     height: fit-content;
-}
-.gamereviews {
-    width: 15em;
-    height: fit-content;
+    margin: 0.5em;
 }
 .welcome {
     width: 30em;
+}
+.plaquecontainer {
+    width: fit-content;
+    border: dashed;
+    border-color: rgb(53, 53, 53);
+    border-width: 0.3em;
 }
