@@ -3,11 +3,11 @@ body {
     margin: 0;
 }
 header {
-    background-color: rgb(31, 31, 31);
+    background-color: rgba(255, 153, 0, 0.13);
     padding: 0.6em;
     border-bottom: solid;
-    border-color: rgb(22, 22, 22);
-    border-width: 0.2em;
+    border-color: rgb(161, 101, 11);
+    border-width: 0.3em;
 }
 h1 {
     color: white;
@@ -36,7 +36,7 @@ a:hover {
 }
 .bodyoutline {
     border: dashed;
-    border-color: rgb(53, 53, 53);
+    border-color: rgba(255, 153, 0, 0.233);
     border-width: 0.5em;
     border-radius: 3em;
     margin: 1em;
@@ -51,12 +51,13 @@ a:hover {
 .container {
     background-color: rgb(31, 31, 31);
     border: solid;
-    border-color: rgb(22, 22, 22);
+    border-color: rgb(161, 101, 11);
     border-width: 0.2em;
     font-size: 1.5em;
     padding: 0.5em;
     text-align: center;
     margin: 1em;
+    border-radius: 0.5em;
 }
 .contentcontainer {
     background-color: rgb(39, 39, 39);
@@ -86,9 +87,10 @@ a:hover {
     margin: 0;
     text-align: center;
     font-weight: bold;
+    color: rgb(255, 153, 0);
 }
 .contentbodytext {
-    color: grey;
+    color: rgb(255, 255, 255);
     font-size: 0.8em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -101,6 +103,10 @@ a:hover {
 .plaquecontainer {
     width: fit-content;
     border: dashed;
-    border-color: rgb(53, 53, 53);
+    border-color: rgba(255, 153, 0, 0.233);
     border-width: 0.3em;
+    border-radius: 1em;
+}
+.majortitle {
+    color: rgb(255, 136, 0);
 }
