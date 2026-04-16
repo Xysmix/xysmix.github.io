@@ -91,6 +91,9 @@ a:hover {
     margin-top: 0.3em;
     margin-bottom: 0.3em;
 }
+.linkborder:hover {
+    background-color: rgba(0, 0, 0, 0.089);
+}
 .contentheader {
     margin: 0;
     text-align: center;
